@@ -349,7 +349,7 @@ Sub OverwriteOption()
         
     Else
     
-        mensagem = MsgBox("este arquivo já existe amigão. voce quer apagar?", vbYesNoCancel)
+        mensagem = MsgBox("este arquivo já exite, deseja sobrescrevê-lo?", vbYesNoCancel)
         
         If mensagem = vbYes Then
         
